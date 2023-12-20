@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: fit-content;
+    background-image: url(../Images/wp2552430.jpg);
+    background-size: cover;
+}
+
+img{
+    width: 100%;
+    height: fit-content;
+}
+
+.one {
+    width: 20%;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    animation-fill-mode: forwards;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.onerev {
+    width: 20%;
+    position: absolute;
+    top: 15%;
+    right: 0;
+    animation-fill-mode: forwards;
+    animation-name: changerev;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+.two {
+    width: 20%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    animation-fill-mode: forwards;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: 5s;
+}
+
+.tworev {
+    width: 20%;
+    position: absolute;
+    top: 35%;
+    right: 0;
+    animation-fill-mode: forwards;
+    animation-name: changerev;
+    animation-duration: 2s;
+    animation-delay: 7s;
+}
+
+.three {
+    width: 20%;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    animation-fill-mode: forwards;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: 9s;
+}
+
+.threerev {
+    width: 20%;
+    position: absolute;
+    top: 58%;
+    right: 0;
+    animation-fill-mode: forwards;
+    animation-name: changerev;
+    animation-duration: 2s;
+    animation-delay: 11s;
+}
+
+.four {
+    width: 20%;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    animation-fill-mode: forwards;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: 13s;
+}
+
+.fourrev {
+    width: 20%;
+    position: absolute;
+    top: 85%;
+    right: 0;
+    animation-fill-mode: forwards;
+    animation-name: changerev;
+    animation-duration: 2s;
+    animation-delay: 15s;
+}
+
+.five {
+    width: 20%;
+    position: absolute;
+    top: 98%;
+    left: 0;
+    animation-fill-mode: forwards;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: 17s;
+}
+
+.fiverev {
+    width: 20%;
+    position: absolute;
+    top: 118%;
+    right: 0;
+    animation-fill-mode: forwards;
+    animation-name: changerev;
+    animation-duration: 2s;
+    animation-delay: 19s;
+}
+
+@keyframes change {
+    100% {left: 80%;}
+}
+
+@keyframes changerev {
+    100% {right: 80%;}
+}
